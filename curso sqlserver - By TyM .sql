@@ -1,6 +1,7 @@
 -- Curso SQL Server  --
 -- Tutoriales y mas; --
--- By Edark --
+-- By Eduardo Alfaro Ch --
+-- Suscr√≠bete! https://www.youtube.com/channel/UCJeVpLbYfAHivHHrwG2TqFw
 
 --create database Ventas1
 --ON
@@ -315,14 +316,14 @@
 
 
 ---- Wikipedia:
----- Transact-SQL (T-SQL) es una extensiÛn al SQL Server
----- SQL, que frecuentemente se dice ser un Lenguaje de B˙squedas Estructurado 
-----(por sus siglas en inglÈs), es un lenguaje de cÛmputo estandarizado, 
-----desarrollado originalmente por IBM para realizar b˙squedas, alterar y definir
+---- Transact-SQL (T-SQL) es una extensi√≥n al SQL Server
+---- SQL, que frecuentemente se dice ser un Lenguaje de B√∫squedas Estructurado 
+----(por sus siglas en ingl√©s), es un lenguaje de c√≥mputo estandarizado, 
+----desarrollado originalmente por IBM para realizar b√∫squedas, alterar y definir
 ---- bases de datos relacionales utilizando sentencias declarativas. T-SQL expande
-----  el est·ndar de SQL para incluir programaciÛn procedural, variables locales, 
+----  el est√°ndar de SQL para incluir programaci√≥n procedural, variables locales, 
 ----  varias funciones de soporte para procesamiento de strings, procesamiento de 
-----  fechas, matem·ticas, etc, y cambios a las sentencias DELETE y UPDATE.
+----  fechas, matem√°ticas, etc, y cambios a las sentencias DELETE y UPDATE.
 
 ---- Sql = lenguaje de peticiones DML
 ---- T-SQL  = sql -> lenguaje programacion 
@@ -522,6 +523,50 @@
 
 
 
+ ------------  DATENAME --------------
+
+ -- month , quarter, year, dayofyear, day ,week ,weekday, hour, minute, second ,millisecond
+
+
+-- Print  Datename (second,getdate())
+
+
+
+----------  Insertar en una table el contenido de otra  -------------
+
+--Insert into Persona (ID, Nombre , Apellido ,Pais)
+--Select * from [dbo].[ejemploTYM$]
+
+
+
+
+---- Informac√≠on de las vistas - Video 53
+
+--create view View_Ejemplo as
+--select top 100 nombre,apellido,Correo,Telefono from ejemploData
+
+
+--select * from View_Ejemplo
+
+
+--sp_help
+
+--sp_helptext View_Ejemplo
+
+--sp_depends View_Ejemplo
+
+
+
+-- Encryptacion de una Vista - 54
+
+--create view View_seguridad 
+--with encryption as
+--select top 100 nombre,apellido,Correo,Telefono from ejemploData
+
+
+--select * from View_seguridad
+
+--sp_helptext View_seguridad
 
 
 
@@ -539,4 +584,7 @@
 
 
 
-	--By Edark;--
+
+
+
+	--By Eduardo Alfaro Ch;--

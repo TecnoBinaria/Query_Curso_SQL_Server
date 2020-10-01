@@ -1,4 +1,5 @@
-# Query Curso SQL Server
+# Query Curso SQL Server :
+ 
 Quieres aprender a gestionar bases de datos con SQL Server?
 Eliminar, actualizar, insertar , hacer consultas normales y especializadas de registros en tablas ,Stored Procedures, Diccionario de Datos, T-SQL, triggers, exportar a XML... son cosas que aprenderás si miras este curso!
 
@@ -10,6 +11,7 @@ Encuentra mas tutoriales aqui:
 
 [ ![](http://1.bp.blogspot.com/-aulLfR1QiBI/VCcxPND4OMI/AAAAAAAABA4/nI7F_mYQe_c/s1600/YT-Suscribete-rankia.png) ](https://www.youtube.com/channel/UCJeVpLbYfAHivHHrwG2TqFw)
 
-By Edark
+
+By Edark,
 Eduardo Alfaro Chacón (c)
 2015
